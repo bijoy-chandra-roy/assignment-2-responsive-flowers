@@ -2,10 +2,78 @@
   margin: 0;
   padding: 0;
 }
+/* Shared*/
+button {
+  background-color: #e95a08;
+  color: #ffffff;
+  font-size: 16px;
+  height: 50px;
+  width: 270px;
+  border: none;
+}
+input {
+  width: 644px;
+  height: 50px;
+}
+.join button {
+  width: 186px;
+}
+.underline {
+  text-decoration: underline;
+}
+.white {
+  color: #ffffff;
+}
+.black {
+  color: #000000;
+}
+.half-black {
+  color: rgba(0, 0, 0, 0.5);
+}
+.gray-1 {
+  color: #8987a1;
+}
+.gray-2 {
+  color: #6b7280;
+}
+.primary-color {
+  color: #e95a08;
+}
+.f65 {
+  font-size: 65px;
+}
+.f50 {
+  font-size: 50px;
+}
+.f40 {
+  font-size: 40px;
+}
+.f28 {
+  font-size: 28px;
+}
+p, .f22 {
+  font-size: 22px;
+}
+.f16 {
+  font-size: 16px;
+}
+/* common
+primary color E95A08
+
+65 h1 50 h2 40 28 latest deal 22 p 16 menu item
+
+black text
+gray 1 text 8987A1
+gray 2 text 6B7280
+the rest are black at 50% opacity
+some white texts
+ */
 
 .body {
   max-width: 1140px;
   margin: 0 auto;
+}
+body {
   font-family: "Inter";
 }
 h1,
@@ -31,12 +99,14 @@ a {
 /* Banner */
 .banner {
   display: flex;
+  align-items: end;
 }
 .banner div {
   width: 50%;
 }
 /* Plants Section */
 .plants {
+  margin-top: 120px;
   text-align: center;
   margin-bottom: 210px;
 }
@@ -128,7 +198,6 @@ a {
   display: flex;
   gap: 110px;
 }
-
 
 .footer .column-1,
 .footer .column-2 {
