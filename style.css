@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  max-width: 1140px;
+  margin: 0 auto;
+  font-family: "Inter";
+}
+h1,
+h2 {
+  font-family: "Noto Serif";
+}
+/* Navbar */
+nav,
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  width: 415px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* Banner */
+.banner {
+  display: flex;
+}
+.banner div {
+  width: 50%;
+}
+/* Plants Section */
+.plants {
+  text-align: center;
+  margin-bottom: 210px;
+}
+.container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+/* Plants Lover Section */
+.plant-lover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.plant-lover .column-1 {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  width: 286px;
+  height: 286px;
+  top: -100px;
+  left: 350px;
+}
+.plant-lover .column-2,
+.plant-lover ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* Latest Deal Section */
+.latest-deal {
+  text-align: center;
+  margin-bottom: 210px;
+}
+.latest-deal .container {
+  display: flex;
+  gap: 28px;
+}
+.latest-deal .column-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+.latest-deal .card-1,
+.latest-deal .card-2 {
+  width: 367px;
+  height: 201px;
+  border-radius: 14px;
+}
+.latest-deal .card-3 {
+  width: 753px;
+  height: 423px;
+  border-radius: 22px;
+}
+.latest-deal .card-1 {
+  background-image: url(./assets/deal-bloom.png);
+}
+.latest-deal .card-2 {
+  background-image: url(./assets/deal-ana.png);
+}
+.latest-deal .card-3 {
+  background-image: url(./assets/deal-zabo.png);
+}
+.latest-deal .card-1,
+.latest-deal .card-2,
+.latest-deal .card-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Join Section */
+.join {
+  height: 533px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* Footer Section */
+.footer {
+  display: flex;
+  gap: 110px;
+}
+
+
+.footer .column-1,
+.footer .column-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+.socials {
+  display: flex;
+  gap: 24px;
+}
+.socials img {
+  height: 36px;
+  width: 36px;
+}
