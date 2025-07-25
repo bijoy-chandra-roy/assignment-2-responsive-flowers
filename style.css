@@ -303,80 +303,104 @@ nav ul {
 
 /* Responsive Design */
 @media screen and (max-width: 430px) {
+  /* Base Adjustments */
   html,
   body {
     width: 100%;
   }
-  .f65 {
-    font-size: 24px;
+
+  .body {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 auto;
   }
+
+  /* Font Sizes */
+  .f65,
   .f50 {
     font-size: 24px;
   }
+
   .f40,
   .latest-deal h2 {
     font-size: 20px;
   }
+
   .f28 {
     font-size: 16px;
   }
+
   p,
   .f22 {
     font-size: 14px;
   }
-  footer .f22 {
-    font-size: 16px;
-  }
+
+  footer .f22,
   .f16 {
     font-size: 16px;
   }
 
+  /* Hide Desktop Navigation */
   .nav-home,
   .nav-shop,
   .nav-about,
   .badge {
     display: none;
   }
-  .body {
-    max-width: 430px;
-    width: 100%;
-    margin: 0 auto;
-  }
+
+  /* Navbar */
   nav {
     margin: 13px 16px 28px;
   }
+
+  /* Banner Section */
   .banner {
     display: flex;
-    align-items: end;
     flex-direction: column-reverse;
+    align-items: end;
   }
-  .banner div {
-    width: 100%;
-  }
-  .banner .column-1 {
-    margin: 28px auto 0px;
-  }
+
+  .banner div,
   .banner img {
     width: 100%;
   }
+
+  .banner .column-1 {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+  
+  .banner .column-1 h1,
+  .banner .column-1 p {
+    margin: 0 16px;
+  }
+
+  /* Join Section */
   .join input {
     width: 218px;
   }
+
   .join button {
     width: 103px;
   }
+
   /* Plants Section */
   .plants {
     margin: 65px 16px 41px;
   }
+
   .plants .container {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .plants .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
+
   .plants .container .card .detail {
     gap: 10px;
   }
@@ -384,10 +408,13 @@ nav ul {
   .plants .container .card img {
     width: 100%;
   }
+
+  /* Buttons */
   button {
     width: 100%;
   }
-  /* Plants Lover Section */
+
+  /* Plant Lover Section */
   .plant-lover {
     display: flex;
     flex-direction: column;
@@ -395,34 +422,41 @@ nav ul {
     gap: 60px;
     margin: 0 16px;
   }
+
   .plant-lover .column-1 img {
     width: 100%;
   }
+
   .plant-lover .column-2 li {
     margin-left: 16px;
   }
+
   /* Latest Deal Section */
   .latest-deal {
-    margin-top: 143px;
-    margin-bottom: 40px;
+    margin: 143px 0 40px;
   }
+
   .latest-deal p {
     margin: 15px 16px 0px;
   }
+
   .latest-deal .container {
     margin: 50px 16px 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
+
   .latest-deal .column-1 {
     gap: 20px;
   }
+
   .latest-deal .card-1,
   .latest-deal .card-2 {
     width: 100%;
     height: 184px;
   }
+
   .latest-deal .card-3 {
     width: 100%;
     height: 172px;
@@ -434,6 +468,7 @@ nav ul {
     flex-direction: column;
     gap: 20px;
   }
+
   .socials {
     display: flex;
     gap: 24px;
