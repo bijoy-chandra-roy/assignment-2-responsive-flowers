@@ -199,6 +199,10 @@ nav ul {
   gap: 20px;
 }
 
+.plant-lover li {
+  margin-left: 30px ;
+}
+
 /* Latest Deal Section */
 .latest-deal {
   text-align: center;
