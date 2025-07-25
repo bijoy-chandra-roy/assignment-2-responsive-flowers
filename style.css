@@ -328,7 +328,7 @@ nav ul {
 }
 
 /* Responsive Design */
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 540px) {
   /* Base Adjustments */
   html,
   body {
